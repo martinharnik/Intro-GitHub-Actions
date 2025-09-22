@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - github-actions-tutorial
+  workflow_call:
   workflow_dispatch:
 
 jobs:
