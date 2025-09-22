@@ -58,3 +58,8 @@ strict = true
     [[tool.mypy.overrides]]
     module                 = "feedparser"
     ignore_missing_imports = true
+
+[tool.ruff]
+target-version = "py313"
+line-length = 88
+select = ["E", "F", "W", "I"]  # Add any other rules you want
