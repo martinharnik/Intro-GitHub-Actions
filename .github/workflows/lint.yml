@@ -13,8 +13,8 @@ jobs:
   lint: # Name of the job
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v5
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v4
         with:
           python-version: "3.13"
           cache: "pip"
